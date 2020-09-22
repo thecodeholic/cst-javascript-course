@@ -6,6 +6,8 @@
 
 // Iterating in array
 
+// Destructuring of arrays, function arguments, spread, rest
+
 // Array methods
 
 // Creating Objects
@@ -13,6 +15,8 @@
 // Set & get properties
 
 // Iterating object
+
+// Destructuring of objects, function arguments, spread, rest
 
 // Arrays of objects
 
