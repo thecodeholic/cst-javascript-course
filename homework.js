@@ -18,7 +18,7 @@
 
 // Create Subject class with name and code
 
-// Create university class with name, students array and subjects array
+// Create University class with name, students array and subjects array
 
 /* Add two methods in university class: 
     addStudent() - which accepts Student instance and adds in students array
