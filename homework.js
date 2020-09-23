@@ -1,13 +1,26 @@
-const employees = [
-  { name: 'Zura', salary: 1500, age: 28 },
-  { name: 'George', salary: 2000, age: 22 },
-  { name: 'Anna', salary: 1800, age: 23 },
-  { name: 'David', salary: 2500, age: 21 },
-  { name: 'Brad', salary: 2600, age: 33 },
-];
+// =======================================
+// Challenge 1
+// =======================================
 
-// Calculate average salary for all employees
+// Create a class Shape with color property and generate constructor
 
-// Find youngest employee
+// Create a class Circle with radius and extend it from Shape  and generate constructor
 
-// Create new array of employees whose salary is greater than or equal 2000
+// Create a method in Circle class which calculates and returns area of the circle
+
+// Create an instance of the Circle class and print the result of that method
+
+// =======================================
+// Challenge 2
+// =======================================
+
+// Create Student class with name, personalId and age
+
+// Create Subject class with name and code
+
+// Create university class with name, students array and subjects array
+
+/* Add two methods in university class: 
+    addStudent() - which accepts Student instance and adds in students array
+    addSubject() - which accepts Subject instance and adds in subjects array
+*/
