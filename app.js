@@ -1,24 +1,45 @@
-// function createPerson()
+// document.write
 
-// Execute any function with new keyword
+// Accessing elements
+/*
+getElementById
+getElementsByTagName
+getElementsByClassName
+querySelector
+querySelectorAll
+*/
 
-// this keyword
+// Accessing properties of element
+/*
+nodeName
+nodeType
+tagName
+className
+classList
+*/
 
-// call(), bind(), apply()
+// Set/Get attributes
 
-// ES6 classes, properties, methods
+// Set/Get innerText
 
-// Static, getters, setters
+// Set/Get innerHTML
 
-// Inheritance: Example of person
+// Access children
 
-// ES5 classes, prototype
+// Access parent
 
-// Object.defineProperty()
+// Access siblings
 
-// Add a new method findById() in Array.prototype
-const users = [
-    {id: 1, username: 'zura'},
-    {id: 2, username: 'brad'},
-    {id: 3, username: 'john'},
-];
+// Creating elements with innerHTML
+
+// document.createTextNode
+
+// document.createElement
+
+// Insert element at last: append, appendChild
+
+// Insert element at first
+
+// Insert element at specific position
+
+// Event Listeners

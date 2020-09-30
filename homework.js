@@ -2,25 +2,55 @@
 // Challenge 1
 // =======================================
 
-// Create a class Shape with color property and generate constructor
-
-// Create a class Circle with radius and extend it from Shape  and generate constructor
-
-// Create a method in Circle class which calculates and returns area of the circle
-
-// Create an instance of the Circle class and print the result of that method
+// Find all paragraphs and change their color into red
 
 // =======================================
 // Challenge 2
 // =======================================
 
-// Create Student class with name, personalId and age
+const users = [
+    'George', 'Brad', 'Mary'
+];
 
-// Create Subject class with name and code
+// Generate unordered list of users
 
-// Create university class with name, students array and subjects array
+// =======================================
+// Challenge 3
+// =======================================
 
-/* Add two methods in university class: 
-    addStudent() - which accepts Student instance and adds in students array
-    addSubject() - which accepts Subject instance and adds in subjects array
-*/
+const todos = [
+    {title: 'Todo 1', completed: false},
+    {title: 'Todo 2', completed: true},
+    {title: 'Todo 3', completed: false},
+];
+// Generate todo unordered list with checkboxes
+
+const newTodo = {title: 'new Todo', completed: false};
+// Insert todo at position 2
+
+// =======================================
+// Challenge 4
+// =======================================
+
+const users = [
+    {username: 'zura', email: 'zura@example.com'},
+    {username: 'brad', email: 'brad@example.com'},
+    {username: 'mary', email: 'mary@example.com'},
+]
+// Generate table
+
+// =======================================
+// Challenge 5
+// =======================================
+
+const words = [
+    {word: 'basilashvili', description: 'Basilashvili lost in the first round of RG'},
+    {word: 'messi', description: 'Messi has 40M EUR salary in a year'},
+    {word: 'Elon Mask', description: 'Elon Mask lost $16B'},
+];
+
+// Traverse DOM and show texts on mouse over for words.
+
+// =======================================
+// Bonus: Create Calculator
+// =======================================
