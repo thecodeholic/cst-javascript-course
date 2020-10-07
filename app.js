@@ -1,24 +1,12 @@
-// 3 ways to add event listener on element, advantages of each
+// Ajax
 
-// Event Object
+// Callbacks
 
-// Mouse events, event.target
-// click, mousedown, mouseup, mousehover
+// Callback hell
 
-// Propogation
+// Promises: Promise.all()
 
-// Default actions: click on a, form submission
+// Fetch
 
-// Key events
-
-// scroll, resize, hashchange
-
-// Timers
-
-// Debouncing
-
-// Event bubling
-
-// Event capturing
-
+// Async & Await
 
