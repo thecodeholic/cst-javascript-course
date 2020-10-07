@@ -1,45 +1,148 @@
-// document.write
+// 3 ways to add event listener on element, advantages of each
 
-// Accessing elements
-/*
-getElementById
-getElementsByTagName
-getElementsByClassName
-querySelector
-querySelectorAll
-*/
+function onClick(){
+    alert("alert")
+}
 
-// Accessing properties of element
-/*
-nodeName
-nodeType
-tagName
-className
-classList
-*/
+// const button = document.querySelector('button');
+// button.onclick = () => {
+//     alert("onclick");
+// };
+// button.onclick = () => {
+//     alert('onclick 2')
+// }
 
-// Set/Get attributes
+// button.addEventListener('click', () => {
+//     alert('Add event listener')
+// })
+// button.addEventListener('click', () => {
+//     alert('Add event listener 2')
+// })
 
-// Set/Get innerText
 
-// Set/Get innerHTML
+// Event Object
 
-// Access children
+// button.addEventListener('mousedown', (event) => {
+//     console.log(event);
+//     let div = document.querySelector('.hover-div');
+//     if (div) {
+//         div.remove();
+//     }
+//     div = document.createElement('div');
+//     div.className = 'hover-div';
+//     div.style.position = 'absolute';
+//     div.style.width = '100px';
+//     div.style.height = '50px';
+//     div.style.background = 'yellow';
+//     div.style.left = event.layerX+'px';
+//     div.style.top = event.layerY+'px';
+//     div.innerHTML = 'Hello Javascript';
+//     document.body.appendChild(div)
+// })
 
-// Access parent
+// Mouse events, event.target
+// click, mousedown, mouseup, mousehover
 
-// Access siblings
 
-// Creating elements with innerHTML
+// Propogation
+// const body = document.body;
+// body.addEventListener('click', () => {
+//     console.log("Body clicked");
+// })
+// const button = document.querySelector('button');
+// button.addEventListener('click', (ev) => {
+//     console.log("Button clicked 1");
+//     ev.stopPropagation();
+//     ev.stopImmediatePropagation();
+// })
+// button.addEventListener('click', (ev) => {
+//     console.log("Button clicked 2");
+//     // ev.stopImmediatePropagation();
+// })
 
-// document.createTextNode
+// Default actions: click on a, form submission
+// const links = document.querySelectorAll('a');
+// links.forEach(a => {
+//     a.addEventListener('click', ev => {
+//         ev.preventDefault();
+//         console.log(ev.target.getAttribute('href'));
+//         window.location.hash = ev.target.getAttribute('href');
+//     })
+// });
 
-// document.createElement
+// const form = document.querySelector('form');
+// form.addEventListener('submit', ev => {
+//     ev.preventDefault();
+//     console.log("Form submitted ", ev.target);
+//     const data = {};
+//     const inputs = ev.target.querySelectorAll('input');
+//     console.log(inputs);
+//     inputs.forEach(input => {
+//         data[input.name] = input.value;
+//     })
+//     console.log(data);
+// });
 
-// Insert element at last: append, appendChild
+// Key events
+// document.addEventListener('keydown', (ev) => {
+//     console.log("keydown ", ev);
+//     ev.preventDefault();
+// })
+// document.addEventListener('keyup', (ev) => {
+//     console.log("keyup ", ev);
+// })
+// document.addEventListener('keypress', (ev) => {
+//     console.log("keypress ", ev);
+// })
 
-// Insert element at first
+// scroll, resize, hashchange
+// window.addEventListener('scroll', (ev) => {
+//     console.log(document.querySelector('html').scrollTop);
+// })
+// window.addEventListener('resize', (ev) => {
+//     console.log(window.outerHeight);
+// })
+// window.addEventListener('hashchange', (ev) => {
+//     console.log(window.location.hash);
+// })
 
-// Insert element at specific position
+// Timers
+// const timout = setTimeout(() => {
+//     console.log("Executed setTimout");
+// }, 5000);
+// clearTimeout(timout);
+// // setInterval
+// const interval = setInterval(() => {
+//     console.log("setInterval ");
+// }, 1000);
 
-// Event Listeners
+// Debouncing
+// let timeout;
+// const textarea = document.querySelector('textarea');
+// textarea.addEventListener('input',  ev => {
+//     clearTimeout(timeout);
+//     timeout = setTimeout(() => console.log(ev.target.value), 500);
+// })
+
+// Event bubling
+// const body = document.body;
+// body.addEventListener('click', () => {
+//     console.log("Body clicked");
+// })
+// const button = document.querySelector('button');
+// button.addEventListener('click', (ev) => {
+//     console.log("Button clicked 1");
+// })
+
+// Event capturing
+
+// const body = document.body;
+// body.addEventListener('click', (ev) => {
+//     console.log("Body clicked");
+//     ev.stopPropagation()
+// }, {capture: true})
+// const button = document.querySelector('button');
+// button.addEventListener('click', (ev) => {
+//     console.log("Button clicked 1");
+// }, {capture: true})
+
