@@ -1,26 +1,21 @@
-// =======================================
-// Challenge 1
-// =======================================
 
-// Gif Searching app: Giphy API
-
+// Icons
+// https://fontawesome.com/icons?d=gallery
 
 // =======================================
-// Challenge 2
+// Card Memory Game
 // =======================================
 
-// Using unsplash API
+// Project  - https://github.com/florinpop17/app-ideas/blob/master/Projects/2-Intermediate/Card-Memory-Game.md
+// Example  - https://codepen.io/zerospree/full/bNWbvW
 
 
 // =======================================
-// Challenge 3
+// Book Searching App
 // =======================================
 
-// Weather App
+// Project  - https://github.com/florinpop17/app-ideas/blob/master/Projects/2-Intermediate/Book-Finder-App.md
+// Example  - https://book-finder-by-deyl.netlify.app/
+// API      - https://developers.google.com/books
 
 
-// =======================================
-// Challenge 4
-// =======================================
-
-// URL Shortener
