@@ -1,12 +1,9 @@
-// Ajax
+// ES5 modules: Create math module
 
-// Callbacks
+// ES6 modules: create separate file for module
 
-// Callback hell
+// Name export
 
-// Promises: Promise.all()
+// Default export (One per module)
 
-// Fetch
-
-// Async & Await
-
+// Mixed Name & default
