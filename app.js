@@ -1,11 +1,3 @@
-// "use strict"; Using undeclared variable, using this inside constructor function
-
-// try/catch
-
-// throw new Error
-
-// Create InputError class
-
 // =============================================================
 // REGEXP
 // =============================================================
@@ -61,6 +53,19 @@
 // Good resources to practice
 // https://regex101.com/
 // https://regexr.com/
+
+// =============================================================
+// Errors
+// =============================================================
+
+// "use strict"; Using undeclared variable, using this inside constructor function
+
+// try/catch
+
+// throw new Error
+
+// Create InputError class
+
 
 
 // =============================================================
