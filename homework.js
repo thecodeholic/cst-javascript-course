@@ -1,21 +1,13 @@
+// ========================================================
+// Create image resizer using vanilla Javascript and canvas
+// https://dev.to/taylorbeeston/resizing-images-client-side-with-vanilla-js-4ng2
+// ========================================================
 
-// Icons
-// https://fontawesome.com/icons?d=gallery
+// ========================================================
+// Create analog clock using canvas
+// https://i2.wp.com/www.compu-gen.com/wp-content/uploads/2015/09/OnTime-Analog-Clock.png?resize=570%2C301
+// ========================================================
 
-// =======================================
-// Card Memory Game
-// =======================================
-
-// Project  - https://github.com/florinpop17/app-ideas/blob/master/Projects/2-Intermediate/Card-Memory-Game.md
-// Example  - https://codepen.io/zerospree/full/bNWbvW
-
-
-// =======================================
-// Book Searching App
-// =======================================
-
-// Project  - https://github.com/florinpop17/app-ideas/blob/master/Projects/2-Intermediate/Book-Finder-App.md
-// Example  - https://book-finder-by-deyl.netlify.app/
-// API      - https://developers.google.com/books
-
-
+// ========================================================
+// Create paint app using canvas
+// ========================================================
