@@ -6,6 +6,8 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 
 // How to create it and use it
+const canvas = document.getElementById('myCanvas');
+const ctx = canvas.getContext('2d');
 
 // Draw rectangles
 // =================
@@ -18,6 +20,9 @@
 // fillText
 
 // strokeText
+
+// Translate and rotate
+// ===================
 
 // Paths   beginPath, moveTo, lineTo, closePath, stroke, fill
 // ==============
@@ -32,3 +37,4 @@
 // ====================
 
 // Ball animation
+// ====================
