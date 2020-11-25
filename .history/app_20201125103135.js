@@ -9,35 +9,30 @@
 const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
 
-// Draw rectangles
-// =================
-// fillRect
-ctx.fillStyle = 'blue';
-ctx.fillRect(50, 50, 100, 50);
+// // Draw rectangles
+// // =================
+// // fillRect
+// ctx.fillStyle = 'blue';
+// ctx.fillRect(50, 50, 100, 50);
+// ctx.fillStyle = 'red';
+// ctx.fillRect(50, 150, 100, 50)
 
-ctx.fillStyle = 'red';
-ctx.fillRect(0, 0, 100, 50);
+// // strokeRect
+// ctx.strokeStyle = 'green';
+// ctx.lineWidth = 4;
+// ctx.strokeRect(200, 50, 100, 50);
 
-function degToRad(deg) {
-    return (Math.PI/180) * deg;
-}
+// // clearRect
+// ctx.clearRect(55, 55, 90, 40);
 
-// strokeRect
-ctx.strokeStyle = 'green';
-ctx.lineWidth = 4;
-ctx.strokeRect(200, 50, 100, 50);
+// // fillText
+// ctx.font = '36px Arial';
+// ctx.fillStyle = 'purple';
+// ctx.fillText("Hello World", 200, 200)
 
-// clearRect
-ctx.clearRect(55, 55, 90, 40);
-
-// fillText
-ctx.font = '36px Arial';
-ctx.fillStyle = 'purple';
-ctx.fillText("Hello World", 200, 200)
-
-// strokeText
-ctx.lineWidth = 1;
-ctx.strokeText("Hello World", 200, 250);
+// // strokeText
+// ctx.lineWidth = 1;
+// ctx.strokeText("Hello World", 200, 250);
 
 // // Paths   beginPath, moveTo, lineTo, closePath, stroke, fill
 // // ==============

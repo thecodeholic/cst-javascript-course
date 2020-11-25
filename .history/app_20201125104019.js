@@ -39,6 +39,9 @@ ctx.fillText("Hello World", 200, 200)
 ctx.lineWidth = 1;
 ctx.strokeText("Hello World", 200, 250);
 
+ctx.translate(canvas.width/2, canvas.height/2);
+ctx.rotate(degToRad(20))
+
 // // Paths   beginPath, moveTo, lineTo, closePath, stroke, fill
 // // ==============
 // ctx.beginPath();

@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(31, 38, 48);
+}
+
+canvas {
+    background-color: #FFF;
+    
+}

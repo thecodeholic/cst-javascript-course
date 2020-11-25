@@ -9,6 +9,9 @@
 const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
 
+// ctx.translate(canvas.width/2, canvas.height/2);
+ctx.rotate(degToRad(20))
+
 // Draw rectangles
 // =================
 // fillRect
