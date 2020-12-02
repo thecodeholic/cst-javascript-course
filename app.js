@@ -1,40 +1,22 @@
-// What is canvas?
-// https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
-// https://www.w3schools.com/html/html5_canvas.asp
-// https://www.w3schools.com/graphics/canvas_intro.asp
-// https://www.w3schools.com/graphics/canvas_reference.asp
-// https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+// What is Postman
+// https://www.postman.com/downloads/
 
-// How to create it and use it
-const canvas = document.getElementById('myCanvas');
-const ctx = canvas.getContext('2d');
+// json placeholder - make requests with different methods
 
-// Draw rectangles
-// =================
-// fillRect
+// Process login form using ajax
 
-// strokeRect
+// Reading data from input[type=file]
 
-// clearRect
+// localStorage
 
-// fillText
+// sessionStorage
 
-// strokeText
+// cookies
 
-// Translate and rotate
-// ===================
+// desktop notifications
 
-// Paths   beginPath, moveTo, lineTo, closePath, stroke, fill
-// ==============
+// window.location
 
-// Arcs
-// ====================
+// window.history
 
-// Draw image
-// ====================
-
-// Write text
-// ====================
-
-// Ball animation
-// ====================
+// encodeURIComponent, decodeURIComponent
