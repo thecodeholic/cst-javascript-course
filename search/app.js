@@ -3,6 +3,9 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
     .then(users => initTable(users));
 
 function initTable(users) {
+    const filters = {};
+    parseUrl();
+
     const table = document.createElement('table');
     table.className = 'table';
     table.innerHTML = `<thead>
@@ -16,16 +19,16 @@ function initTable(users) {
         <tr>
             <th></th>
             <th>
-                <input data-field="name" class="form-control"/>
+                <input data-field="name" class="form-control" value="${filters['name'] || ''}"/>
             </th>
             <th>
-                <input data-field="username" class="form-control"/>
+                <input data-field="username" class="form-control" value="${filters['username'] || ''}"/>
             </th>
             <th>
-                <input data-field="email" class="form-control"/>
+                <input data-field="email" class="form-control" value="${filters['email'] || ''}"/>
             </th>
             <th>
-                <input data-field="phone" class="form-control"/>
+                <input data-field="phone" class="form-control" value="${filters['phone'] || ''}"/>
             </th>
         </tr>
     </thead>
@@ -34,6 +37,7 @@ function initTable(users) {
     const tbody = document.createElement('tbody');
 
     renderUsers(users);
+    applyFilters();
     table.append(tbody);
     document.body.append(table);
 
@@ -64,6 +68,42 @@ function initTable(users) {
     }
     
     function filterTable(field, value) {
+        applyFilter(field, value);
+        changeUrl(field, value);
+    }
+
+    function changeUrl(field, value){
+        
+        if (!value) {
+            delete filters[field]
+        } else {
+            filters[field] = value;
+        }
+
+        const queryString = "?"+Object.entries(filters).map(subArray => subArray.join('=')).join('&');        
+        // https://developer.mozilla.org/en-US/docs/Web/API/History/pushState
+    }
+
+    function parseUrl(){
+        if ( !window.location.search) {
+            return;
+        }
+        const parts = window.location.search.replace('?', '')
+            .split("&");
+        parts.forEach(part => {
+            const [field, value] = part.split('=');
+            filters[field] = value;
+        })
+        
+    }
+
+    function applyFilters(){
+        for (let field in filters) {
+            applyFilter(field, filters[field]);
+        }
+    }
+
+    function applyFilter(field, value) {
         const newUsers = users
             .filter(user => {
                 return user[field].toLowerCase().includes(value.toLowerCase());
