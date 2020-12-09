@@ -1,8 +1,4 @@
 // ========================================================
-// Create notes application which will save notes in localStorage
-// https://youtu.be/Bav5SL8-sI4
-// ========================================================
-
-// ========================================================
-// Create reminder app
+// Create One of the advanced applications from here
+// https://github.com/florinpop17/app-ideas
 // ========================================================

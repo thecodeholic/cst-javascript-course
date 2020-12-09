@@ -1,0 +1,33 @@
+{
+  "name": "javascript-course",
+  "version": "1.0.0",
+  "description": "Source code for Javascript course",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsekhniashvili/cst-javascript-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsekhniashvili/cst-javascript-course/issues"
+  },
+  "homepage": "https://github.com/zsekhniashvili/cst-javascript-course#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
